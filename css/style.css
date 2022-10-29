@@ -1,0 +1,596 @@
+/*common CSS start*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 1180px;
+    margin: auto;
+    align-items: center;
+}
+
+.same_info{
+    text-align:center ;
+    color: #566366;
+}
+
+.same_info h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.same_info p{
+    font-size: 18px;
+    text-align: center;
+    width: 1020px;
+    margin: auto;
+}
+
+
+/*common CSS end*/
+/* banner section CSS start*/
+#banner{
+    background: url(../image/banner_bg.jpg);
+    height: 700px;
+    background-size:cover;
+    background-position: center;
+}
+
+#banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#banner .banner_content{
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#banner .banner_content .had h1{
+    font-size: 60px;
+    font-weight: 700;
+    border-top:2px solid white;
+    border-bottom: 2px solid white;
+    margin: 50px auto;
+    display: inline-block;
+}
+
+#banner .banner_content a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 17px 36px;
+}
+/* banner section CSS end*/
+/* nav section CSS start*/
+nav{
+    width: 100%;
+    background-color: #252e30;
+    position: fixed;
+    bottom: 0;
+}
+
+nav .logo{
+    width: 15%;
+}
+nav .logo img{
+    display: block;
+}
+
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .menu{
+    width: 85%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav .menu ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 29px 25px;
+    display: block;
+    transition: .5s;
+}
+
+nav .menu ul li:hover a{
+    color: #2ecc71;
+}
+/* nav section CSS end*/
+/* about me section start*/
+
+
+#about .section_info .row{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0px 50px;
+    color: #566366;
+    padding: 50px 0px;
+}
+#about .section_info .row h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 50px 0px;
+}
+
+#about .section_info .row p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+#about .about_me{
+    display: flex;
+}
+
+#about .about_me img{
+    height: 100%;
+}
+
+#about .about_me_skils{
+    background: #f2f2f1;
+}
+
+#about .about_me_skils_content{
+    padding: 80px 100px 50px;
+    color: #566366;
+}
+
+#about .about_me_skils_content h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 48px;
+}
+
+#about .about_me_skils_content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#about .about_me_skils .skils{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+
+#about .about_me_skils .skils .web_design{
+    width: 50%;
+    margin-bottom: 50px;
+    
+}
+
+#about .about_me_skils .skils .web_design i{
+    color: #2ecc71;
+    font-size: 35px;
+}
+
+#about .about_me_skils .skils .web_design h3{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+#about .about_me_skils .skils .web_design p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#about .about_me_skils .skils .icon{
+    display: flex;
+    width: 100%;
+}
+
+
+#about .about_me_skils .skils .icon i{
+    padding-right: 28px;
+}
+
+
+
+
+#about .container{
+    display: flex;
+    padding: 90px 0px;
+}
+
+#about .cont_skil{
+    width: 50%;
+    color: #566366;
+    padding-right: 90px;
+}
+
+#about .cont_skil h4{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom:49px ;
+}
+
+#about .cont_skil p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 49px;
+}
+
+#about .cont_skil a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2ecc71;
+    text-transform: uppercase;
+    border: 2px solid #2ecc71;
+    padding: 19px 35px;
+}
+
+#about .state .state_info h3{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#about .state_info{
+    padding-bottom: 40px;
+}
+
+#about .state{
+    width: 50%;
+}
+
+#about .state_info .math{
+    width: 100%;
+    border: 2px solid transparent;
+    background:#f2f2f1 ;
+}
+
+#about .state_info .phy{
+    width: 90%;
+    border: 1px solid #2ecc71;
+    background: #2ecc71;
+}
+
+#about .state_info h3{
+    font-size: 22px;
+    font-weight: 700;
+    color:#566366 ;
+}
+
+#about .state_info  p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-align: right;
+}
+
+#about .state_info .illu{
+    width: 80%;
+    border: 1px solid #2ecc71;
+    background: #2ecc71;
+}
+
+#about .state_info .html{
+    width: 90%;
+    border: 1px solid #2ecc71;
+    background: #2ecc71;
+}
+
+#about .state_info .php{
+    width: 70%;
+    border: 1px solid #2ecc71;
+    background: #2ecc71;
+}
+/* about me section end*/ 
+/* resume section CSS start*/
+#resume{
+    background: #f2f2f1;
+    padding: 100px 0px;
+}
+#resume .same_info p{
+    padding: 49px 0px;
+}
+
+#resume .same_info a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 20px 19px;
+    display: inline-block;
+}
+/* resume section CSS end*/
+/*education & work section CSS start*/
+#education .container{
+    display: flex;
+    color: #566366;
+}
+
+#education h4{
+    text-transform: uppercase;
+}
+#education .my_education{
+    padding-right:75px;
+}
+
+#education .my_education h4{
+    font-size: 30px;
+}
+
+#education .my_education p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 50px 0px;
+}
+
+#education .degree h4{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+#education .degree .college{
+    padding:10px 0px ;
+}
+
+#education .disign_diploma{
+    padding: 80px 0px;
+}
+
+#education .degree .point {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background: #2ecc71;
+    border: 2px solid #2ecc71;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+
+#education .degree hr{
+    margin: 20px 0px;
+}
+
+#education .degree p{
+    font-size:18px;
+    line-height: 30px;
+}
+
+#hori .container hr{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+/*education & work section CSS end*/
+
+
+#outline{
+    background: #f2f2f1;
+    color: #566366;
+    margin-top: 100px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#outline p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#outline  .name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0px;
+}
+/* portfolio section CSS start*/
+#portfolio{
+    padding: 50px 0px;
+}
+#portfolio .same_info h4{
+    padding: 50px 0px;
+}
+
+#portfolio .portfolio_item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+#portfolio .portfolio_content img{
+    padding: 10px;
+    display: block;
+    
+}
+
+#portfolio .portfolio_content{
+    width: 33.33%;
+    height: 100%;
+    position: relative;
+}
+
+#portfolio .portfolio_content .overlay{
+    background: rgba(89,208,139,.75);
+    position: absolute;
+
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 16px;
+    transition: 0.7s;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .portfolio_content:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+#portfolio .portfolio_category{
+    background: #252e30;
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+}
+
+
+#portfolio .portfolio_category h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 25px 0px;
+    text-transform: uppercase;
+}
+
+#portfolio .portfolio_category .all{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 0px;
+}
+
+#portfolio .portfolio_category p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+    padding: 10px 0px;
+}
+/* portfolio section CSS end*/
+/* contact section CSS satrt*/
+#contact{
+    background: #252e30;
+    padding: 100px 0px;
+}
+#contact .container{
+    display: flex;
+}
+
+#contact .contact_me{
+    width: 50%;
+    padding-right: 50px;
+}
+
+#contact .contact_me h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px 0px;
+}
+
+#contact .contact_me p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+    padding-bottom: 50px;
+}
+
+#contact address{
+    color: white;
+    padding: 25px 0px;
+}
+
+#contact .contact_me .email{
+    color: white;
+    padding-bottom: 10px;
+}
+
+#contact .form{
+    background:  #252e30;
+}
+
+#contact input,
+#contact textarea{
+    display: block;
+    background: #4b5456;
+    border: none;
+    width: 540px;
+    margin-bottom: 40px;
+}
+#contact input{
+    height: 55px;
+}
+
+#contact .form label p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#contact .form button{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background: #191f21;
+    padding: 20px 35px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* contact section CSS end*/
+/* copyright section CSS start*/
+#copyright{
+    background:#191f21;
+    padding: 50px 0px;
+    margin-bottom:50px ;
+}
+#copyright .copy{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4b5456;
+    padding-bottom: 30px;
+}
+#copyright .link{
+    display: flex;
+    justify-content: center;
+}
+
+#copyright .link_attach{
+    font-size: 35px;
+}
+
+#copyright .link_attach i{
+    color: #4b5456;
+    padding: 5px;
+}
+/* copyright section CSS end*/
